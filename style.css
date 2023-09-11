@@ -77,11 +77,19 @@
   
   .side-image {
     grid-area: side-image;
-    background-image: url('https://res.cloudinary.com/gb2020/image/upload/v1589217439/base%20apparel%20coming%20soon/hero-desktop_qd7w4w.jpg');
+    background-image: url('Untitled2.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    margin-top: 15%;
+    background-size: 100%;
   }
   
+  .side {
+    grid-area: side-image;
+   width: 100%;
+   
+    
+    background-size: 90%;
+  }
   /**
   * Main
   **/
@@ -270,12 +278,13 @@
     }
     
     .side-image {
-      min-height: 25rem;
-      background-image: url('https://res.cloudinary.com/gb2020/image/upload/v1589217439/base%20apparel%20coming%20soon/hero-mobile_dv2qh6.jpg');
+      height: 100%;
+      width: auto;
+      background-image: url('Untitled2.png');
     }
     
     .main, header {
-      padding: 2rem;
+      padding: 100px;
       width: 100vw;
       margin: 0 auto;
     }
